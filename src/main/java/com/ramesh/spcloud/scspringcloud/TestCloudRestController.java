@@ -12,4 +12,14 @@ public class TestCloudRestController {
     public String welcome() {
         return  "Welcome Test screen Java";
     }
+
+    @GetMapping("/welcome")
+    public String test(){
+        return  "Hi! Welcome Mr.Ramesh Pongiannan";
+    }
+
+    @GetMapping("/test")
+    public String weltest() {
+        return  "Hello Test content for this site..";
+    }
 }
